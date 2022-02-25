@@ -1,0 +1,29 @@
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.faq {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .active, .faq:hover {
+    background-color: #ccc;
+  }
+  
+  .content {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-size: 1.5rem;
+  }
