@@ -1,0 +1,35 @@
+ .tab {
+    overflow: hidden;
+    border: 1px solid rgb(184, 178, 178);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+  }
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 5rem;
+    transition: 0.3s;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+  }
+  
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab button.active {
+    background-color:rgb(184, 178, 178) ;
+  }
+  
+  .content {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid rgb(184, 178, 178);
+    border-top: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+  }
